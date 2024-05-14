@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className="bg-[#08321B]">
             <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 px-4 py-8 max-w-6xl mx-auto justify-between mt-8 mb-4 text-white">
-                <div className="flex flex-col w-64">
+                <div className="flex flex-col w-64 pl-4">
                     <Link href="/">
                         <Image
                             src="/logo-footer.png"
@@ -18,7 +18,7 @@ function Footer() {
                     <p className="mt-4">The ideal waste management solution for businesses and private individuals</p>
                     <Link href="#" className="bg-[#056B34] border-white border-2 w-48 h-12 mt-8 font-semibold text-2xl flex justify-center items-center text-center">Sign Up</Link>
                 </div>
-                <div className="px-4 flex flex-row space-x-32 md:space-x-24">
+                <div className="px-4 flex flex-row space-x-40 md:space-x-24">
                     <div className="flex flex-col text-left space-y-2 text-sm">
                         <p className="font-bold">Pages</p>
                         <Link href="#" className="mt-5">About Us</Link>

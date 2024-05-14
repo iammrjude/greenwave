@@ -23,11 +23,11 @@ export default function Home() {
           <p className="text-white font-semibold text-xl md:text-2xl lg:text-5xl mt-2">Future Together with GREENWAVE</p>
           <p className="text-gray-400 text-sm md:text-base lg:text-2xl mt-5">Download App on Google Playstore or Apple Appstore</p>
           <div className="flex flex-col md:flex-row space-x-0 md:space-x-8 space-y-4 md:space-y-0 mt-8 mb-24 md:mb-36 lg:mb-72">
-            <Link href="#" className="bg-[#056B34] h-8 w-44 md:w-[300px] md:h-[50px] lg:w-[407px] lg:h-[70px] rounded-md text-white flex justify-center items-center text-xs md:text-base lg:text-xl font-semibold">
+            <Link href="#" className="bg-[#056B34] h-8 w-48 md:w-[300px] md:h-[50px] lg:w-[407px] lg:h-[70px] rounded-md text-white flex justify-center items-center text-xs md:text-base lg:text-xl font-semibold">
               Download on Appstore
               <AppleIcon className="text-2xl md:text-3xl ml-0 md:ml-3" />
             </Link>
-            <Link href="#" className="bg-[#056B34] h-8 w-44 md:w-[300px] md:h-[50px] lg:w-[407px] lg:h-[70px] rounded-md text-white flex justify-center items-center text-xs md:text-base lg:text-xl font-semibold">
+            <Link href="#" className="bg-[#056B34] h-8 w-48 md:w-[300px] md:h-[50px] lg:w-[407px] lg:h-[70px] rounded-md text-white flex justify-center items-center text-xs md:text-base lg:text-xl font-semibold">
               Download on Playstore
               <PlaystoreIcon className="text-lg md:text-2xl ml-0 md:ml-3" />
             </Link>
